@@ -45,6 +45,8 @@ By default, Cloud9 provisions 10 GiB of disk space for the IDE. In order to work
   ![AWS EC2 Volume Modify Modal](./ec2-volume-size.png)
 5. Wait until the change is applied. You can refreseh the page to see the latest status:
   ![AWS EC2 Volume State Processing](./ec2-volume-state-processing.png)
+6. When the modification is done, we need to reboot the instance for the larger volume to be mounted.
+ Just go back to Cloud9 and type `sudo reboot` into the terminal.
 
 ### Bootstrap
 - Go back to your Cloud9 environment
